@@ -1,0 +1,183 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+  position: fixed;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+
+}
+.logo
+{
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    color: black;
+    font-weight: bold;
+    line-height: 100px;
+
+
+}
+
+
+ul
+{  position: relative;
+    float: right;
+    margin-right: 40px;
+
+
+}
+ul li
+{
+    display: inline-block;
+    line-height: 40px;
+    margin: 10px;
+
+}
+.main_img{
+width: 100%;
+height: 400px;
+
+
+
+}
+.section1
+{
+    padding-top: 70px;
+}
+.welcome_img
+{
+    width: 100%;
+    height: 250px;
+}
+.container
+{
+    padding-top: 50px;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-white
+{
+    color: aliceblue;
+}
+footer{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    height: 90px;
+    width: 100%;
+    
+}
+.us
+{
+    width: 80%;
+    margin: 50px auto;
+}
+body{
+    background: #55ffe5;
+    font-size: 14px;
+    font-family: 'Anuphan', sans-serif;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px ;
+    background: #b5009a;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+.us p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.iput-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+butten{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+
+}
+.contact-right h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+
+}
+tr td:first-child{
+    padding-right: 20px;
+
+}
+tr td{
+    padding-top: 20px;
+}
+.firstins
+{
+    width: 20%;
+    height: 30%;
+}
+.depart
+{
+    padding-top: 1px;
+}
+
